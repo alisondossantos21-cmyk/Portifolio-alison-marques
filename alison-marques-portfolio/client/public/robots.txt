@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow crawling of development/admin areas if any
+Disallow: /.env
+Disallow: /node_modules/
+
+# Specify sitemap location
+Sitemap: https://alisonmarques.com/sitemap.xml
+
+# Crawl delay (ms) - be respectful
+Crawl-delay: 1
